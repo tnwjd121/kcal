@@ -1,0 +1,250 @@
+#add-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  width: 86%;
+  margin: 0 auto;
+}
+
+#return-button {
+  font-size: 12px;
+  width: 15%;
+  text-align: center;
+}
+
+#add-type {
+  width: 86%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#add-type-button {
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(223, 222, 222);
+  cursor: 'pointer';
+  width: 70px;
+  height: 30px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  font-family: 'PretendardMedium';
+}
+
+#add-summary {
+  background-color: #fafafa;
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+
+#add-summary-text {
+  width: 86%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-family: 'PretendardMedium';
+}
+
+#add-summary-title {
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#add-summary-kcal {
+  font-size: 20px;
+}
+
+#add-summary-data {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+#add-summary-graph {
+  height: 30px;
+  width: 100%;
+  background: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  font-size: 10px;
+  color: black;
+  text-align: center;
+}
+
+.carbohydrates {
+  background-color: #ff8800;
+}
+
+.protein {
+  background-color: #b5d946;
+}
+
+.fat {
+  background-color: #f8ce27;
+}
+
+.graph-div {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  color: white;
+}
+
+#graph-div-zero {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+  color: #9e9ea2;
+  background-color: #eee;
+  width: 100%;
+}
+
+#graph-legend {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-color-box {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+#add-food {
+  width: 86%;
+  margin: 20px auto;
+}
+
+#add-food-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding-bottom: 15px;
+}
+
+.add-food-title {
+  font-family: 'PretendardMedium';
+  font-size: 12px;
+}
+
+#add-food-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#add-food-card {
+  border: 1px solid #e6e4e4;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+#add-foodname {
+  font-family: 'PretendardMedium';
+  font-style: bold;
+  font-size: 18px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#delete-button {
+  background: none;
+  border: none;
+  color: #3fb64d;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+#card-hr {
+  border: none;
+  height: 0.5px;
+  background-color: #cfcfcf;
+}
+
+#card-amount-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+#card-amout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.card-button {
+  background-color: #f0f0f0;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+#card-button-amount {
+  height: 30px;
+  width: 70%;
+  font-size: 16dpx;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+
+}
+#add-button{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:80%;
+  max-width: 340px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: #41b64a;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  z-index: 1000；
+}
+
+#add-button.disabled {
+  background-color: #f0f0f0;
+  cursor: default;
+  pointer-events: none;
+  color: #838383;
+}

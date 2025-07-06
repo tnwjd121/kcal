@@ -1,0 +1,155 @@
+#list-top {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86%;
+  font-size: 18px;
+}
+
+#list-info {
+  background-color: #fafafa;
+  padding: 15px 2px;
+  padding-bottom: 50px;
+  z-index: 1;
+  height: 100px;
+}
+
+#list-info-date-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.nav{
+  color: #a6a6a6;
+}
+
+#list-info-date {
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+  font-size: 13px;
+  padding: 5px 10px;
+  width: 130px;
+  text-align: center;
+  border-radius: 15px;
+  color: #4e4e4e;
+}
+
+#list-info-summary {
+  margin-bottom: 10px;
+  width: 86%;
+  margin: 0 auto;
+}
+
+#list-info-title{
+  color: #4fbb57;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+#list-info-kcal {
+  font-size: 18px;
+  font-family: 'PretendardMedium';
+  margin: 10px 0;
+}
+
+#list-info-weight {
+  font-size: 11px;
+  color: #b5b5b5;
+}
+
+#list-info-legend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.legend-box {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+
+.legend-box.carb {
+  background-color: #ff8800;
+}
+
+.legend-box.protein {
+  background-color: #b5d946;
+}
+
+.legend-box.fat {
+  background-color: #f8ce27;
+}
+
+#list-card {
+  width: 86%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.list-meal {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8a8a8a;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #8a8a8a;
+  width: 45px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 15px;
+
+}
+
+.list-card-item {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+
+.list-card-name {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+    max-width: 210px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 5px;
+}
+
+#list-card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+
+}
+.list-card-info-kcal {
+  font-size: 12px;
+
+}
+.list-card-info-amount {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #c6c6c6;
+
+}
+
+#list-card-nutrition {
+  font-size: 13px;
+  color: #c6c6c6;
+  display: flex;
+}
+.nutrition {
+  width: 70px;
+  text-align: left;
+}
